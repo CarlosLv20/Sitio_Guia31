@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet type="text/css" href="ejercicio2b.css" ?>
+<!-- ejemplo2.xml  AF19026 -->
+<pais nombre="El Salvador">
+  <moneda tipo="Estadounidense">Dolar</moneda>
+  <area>503</area>
+  <idiomas>
+    <oficial>Español</oficial>
+    <autoctono>Náhuat</autoctono>
+    <secundario>íngles</secundario>
+  </idiomas>
+  <departamentos>
+    <departamento id="1" nombre="San Salvador">
+      <cabecera>San Salvador</cabecera>
+      <habitantes>1,700,000</habitantes>
+      <altura>545 MSNM</altura>
+      <area_territorial unidad="km^2">886,15</area_territorial>
+    </departamento>
+    <departamento id="2" nombre="La Paz">
+      <cabecera>Zacatecoluca</cabecera>
+      <habitantes>332,000</habitantes>
+      <altura>490 MSNM</altura>
+      <area_territorial unidad="km^2">1.224</area_territorial>
+    </departamento>
+    <departamento id="3" nombre="Cabañas">
+      <cabecera>Sensuntepeque</cabecera>
+      <habitantes>149,326</habitantes>
+      <altura>750 MSNM</altura>
+      <area_territorial unidad="km^2">1104</area_territorial>
+    </departamento>
+  </departamentos>
+ 
+</pais>

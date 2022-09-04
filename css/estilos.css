@@ -1,0 +1,124 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+/*configuraciones generales y fondo del sitio*/
+body{
+    font-family: 'Raleway', sans-serif;
+    color: aliceblue;
+    line-height: 1.3em;
+    font-size: 1em;
+    background: #300c72 url(../imagenes/fondo.jpg) top repeat-y;
+}
+/*Datos de presentacion del sitio*/
+header{
+    font-size: 2.5em;
+    line-height: 1.3em;
+    text-align: center;
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.logo{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+/*Menu con etiqueta nav -> utilizado para mis datos personales*/
+nav{
+    width: 100%;
+    clear: both;
+    padding: 10px;
+}
+
+nav ul{
+    width: 100%;
+    list-style: none;
+}
+
+nav ul li{
+    text-align: center;
+    width: 33.3%;
+    float: left;
+}
+
+.container{
+    width: 100%;
+    background: #14043b;
+    margin: 20px auto;
+    padding-top: 1em;
+    border: solid #704bb6;
+    text-align: center;
+    color: rgba(222, 212, 241, 0.76);
+}
+ /*Texto presentacion del sitio*/
+.title_inicio{
+    color: rgb(163, 153, 202);
+    margin-bottom: 35px;
+}
+/*Justificar el texto de las etiquetas P*/
+.texto{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    justify-content: left;
+    text-align: left;
+}
+.container_tabla{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #261450;
+}
+.container_tabla h2{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+    line-height: 1.3em;
+    color: #ff9e00;
+}
+.container_tabla h3{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    line-height: 1.3em;
+    color: #e0aaff;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+table{
+    width: 100%;
+}
+table, th, td{
+    border: 3px solid #000;
+    border-collapse: collapse; /*no tener ningun espacio en nuestros bordes*/
+    /*border-spacing: 5px;  si requieren el estilo con espacios entre los bordes*/ 
+    padding: 5px;
+}
+
+td{
+    padding: 5px;
+}
+
+
+
+/*Parte Final de la Pagina Web*/
+footer{
+    margin-top: 3em;
+    padding: 2em;
+    width: 100%;
+    height: 50px;
+    background-color: #261158;
+    color: #fff;
+    position: fixed;
+}
+footer p{
+    text-align: center;
+    font-size: 0.9em;
+}
+

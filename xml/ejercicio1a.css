@@ -1,0 +1,48 @@
+fichero{
+	background-color: #0077b6;
+}
+ficha[id]::before {
+    content: "Id: "attr(id)" Fecha: "attr(fechaingreso);
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    font-family: georgian;
+	padding-bottom: 1em;
+}
+ficha{
+	width: 100%;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #023047;
+    font-size: 1.6em;
+	color: #ffb703;
+    display: block;
+}
+nombre{
+	display: inline;
+}
+
+apellido{
+	display: inline;
+}
+
+direccion{
+	display: block;
+}
+
+celular{
+	display: block;
+}
+
+carnet{
+	display: block;
+}
+
+correo{
+	display: block;
+}
+
+urlweb{
+	display: block;
+}

@@ -1,0 +1,33 @@
+{
+	"pais":{
+		"@nombre":"El Salvador",
+		"moneda":{
+			"@tipo":"Estadounidense",
+			"#text":"Dolar"
+		},
+		"area":"503",
+		"idiomas":{
+			"oficial":"Español",
+			"autoctono":"Náhuat",
+			"secundario":"íngles"
+		},
+		"departamento":[
+			{
+				"@id":"1",
+				"@nombre":"San Salvador",
+				"cabecera":"San Salvador",
+				"habitantes":"1,700,000",
+				"altura":"545 MSNM",
+				"area_territorial":"886,15 km^2"
+			},
+			{
+				"@id":"2",
+				"@nombre":"La Paz",
+				"cabecera":"Zacatecoluca",
+				"habitantes":"332,000",
+				"altura":"490 MSNM",
+				"area_territorial":"1,224 km^2"
+			}
+		]
+	}
+}
